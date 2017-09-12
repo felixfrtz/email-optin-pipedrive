@@ -1,0 +1,566 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Email download link\n"
+"POT-Creation-Date: 2016-11-05 22:07+0800\n"
+"PO-Revision-Date: 2016-11-05 22:07+0800\n"
+"Last-Translator: \n"
+"Language-Team: www.gopiplus.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../base/ed-defined.php:16
+msgid "Please fill in the required field."
+msgstr ""
+
+#: ../base/ed-defined.php:17
+msgid "Email address seems invalid."
+msgstr ""
+
+#: ../base/ed-defined.php:18
+msgid ""
+"Validation errors occurred. Please confirm the fields and submit it again."
+msgstr ""
+
+#: ../base/ed-defined.php:19
+msgid "Download link sent successfully to your email address."
+msgstr ""
+
+#: ../classes/ed-register.php:44
+msgid "These tables could not be created on installation "
+msgstr ""
+
+#: ../classes/ed-register.php:74 ../classes/ed-register.php:77
+#: ../classes/ed-register.php:80 ../classes/ed-register.php:83
+#: ../classes/ed-register.php:86
+msgid "Email download link"
+msgstr ""
+
+#: ../classes/ed-register.php:75
+msgid "Download Link"
+msgstr ""
+
+#: ../classes/ed-register.php:78 ../downloads/downloads-show.php:56
+#: ../downloads/downloads-show.php:67 ../downloads/downloads-show.php:95
+#: ../subscribers/subscribers-downloads.php:64
+#: ../subscribers/subscribers-email.php:63
+#: ../subscribers/subscribers-email.php:74
+#: ../subscribers/subscribers-show.php:57
+#: ../subscribers/subscribers-show.php:68
+msgid "Downloads"
+msgstr ""
+
+#: ../classes/ed-register.php:81 ../cron/cron-add.php:105
+msgid "Cron Details"
+msgstr ""
+
+#: ../classes/ed-register.php:84 ../settings/settings-edit.php:148
+msgid "Settings"
+msgstr ""
+
+#: ../classes/ed-register.php:87
+msgid "Download History"
+msgstr ""
+
+#: ../classes/ed-register.php:213 ../subscribers/subscribers-downloads.php:61
+#: ../subscribers/subscribers-downloads.php:72
+#: ../subscribers/subscribers-email.php:60
+#: ../subscribers/subscribers-email.php:71
+#: ../subscribers/subscribers-show.php:54
+#: ../subscribers/subscribers-show.php:65
+msgid "Name"
+msgstr ""
+
+#: ../classes/ed-register.php:227
+msgid "Email *"
+msgstr ""
+
+#: ../classes/ed-register.php:248
+msgid "Send Download Link"
+msgstr ""
+
+#: ../classes/ed-register.php:325
+msgid "Widget title"
+msgstr ""
+
+#: ../classes/ed-register.php:329
+msgid "Short description for your download form."
+msgstr ""
+
+#: ../classes/ed-register.php:333
+msgid "Display NAME box"
+msgstr ""
+
+#: ../classes/ed-register.php:340
+msgid "Do you want to set NAME box is mandatory box?"
+msgstr ""
+
+#: ../classes/ed-register.php:347
+msgid "Select download link for this form."
+msgstr ""
+
+#: ../cron/cron-add.php:11 ../downloads/downloads-edit.php:10
+#: ../downloads/downloads-view.php:10 ../settings/settings-edit.php:11
+msgid "Oops, selected details doesnt exist."
+msgstr ""
+
+#: ../cron/cron-add.php:77 ../settings/settings-edit.php:106
+msgid "Details was successfully updated."
+msgstr ""
+
+#: ../cron/cron-add.php:82 ../settings/settings-edit.php:111
+msgid "Oops, details not update."
+msgstr ""
+
+#: ../cron/cron-add.php:108
+msgid "Cron job URL"
+msgstr ""
+
+#: ../cron/cron-add.php:110
+msgid ""
+"Please find your cron job URL. This is read only field not able to modify "
+"from admin."
+msgstr ""
+
+#: ../cron/cron-add.php:112 ../settings/settings-edit.php:222
+msgid "Admin mail content"
+msgstr ""
+
+#: ../cron/cron-add.php:114
+msgid ""
+"Enter the mail content for admin. This will send whenever cron URL is "
+"triggered."
+msgstr ""
+
+#: ../cron/cron-add.php:119 ../downloads/downloads-add.php:160
+#: ../downloads/downloads-edit.php:164
+msgid "Submit"
+msgstr ""
+
+#: ../cron/cron-add.php:120 ../downloads/downloads-add.php:161
+#: ../downloads/downloads-edit.php:165 ../settings/settings-edit.php:251
+msgid "Cancel"
+msgstr ""
+
+#: ../cron/cron-add.php:121 ../downloads/downloads-add.php:162
+#: ../downloads/downloads-edit.php:166 ../downloads/downloads-show.php:142
+#: ../downloads/downloads-view.php:90 ../settings/settings-edit.php:252
+#: ../subscribers/subscribers-downloads.php:140
+#: ../subscribers/subscribers-email.php:139
+#: ../subscribers/subscribers-export.php:52
+#: ../subscribers/subscribers-show.php:135
+msgid "Help"
+msgstr ""
+
+#: ../downloads/downloads-add.php:39 ../downloads/downloads-edit.php:52
+msgid "Please enter download title."
+msgstr ""
+
+#: ../downloads/downloads-add.php:45
+msgid "Please enter download URL."
+msgstr ""
+
+#: ../downloads/downloads-add.php:51 ../downloads/downloads-edit.php:64
+msgid "Please select valid expiration type."
+msgstr ""
+
+#: ../downloads/downloads-add.php:57 ../downloads/downloads-edit.php:70
+msgid "Please enter valid expiration date."
+msgstr ""
+
+#: ../downloads/downloads-add.php:68
+msgid "Download link was successfully created."
+msgstr ""
+
+#: ../downloads/downloads-add.php:72 ../downloads/downloads-edit.php:85
+msgid "Failed to create record. Please contact plugin admin."
+msgstr ""
+
+#: ../downloads/downloads-add.php:100 ../downloads/downloads-edit.php:102
+#: ../settings/settings-edit.php:131
+msgid "Click here"
+msgstr ""
+
+#: ../downloads/downloads-add.php:101 ../downloads/downloads-edit.php:103
+#: ../settings/settings-edit.php:132
+msgid " to view the details"
+msgstr ""
+
+#: ../downloads/downloads-add.php:136
+msgid "Add download link"
+msgstr ""
+
+#: ../downloads/downloads-add.php:138 ../downloads/downloads-edit.php:140
+#: ../downloads/downloads-view.php:51
+msgid "Download link"
+msgstr ""
+
+#: ../downloads/downloads-add.php:141 ../downloads/downloads-edit.php:143
+msgid ""
+"Please upload your file to generate download link or enter your download "
+"link."
+msgstr ""
+
+#: ../downloads/downloads-add.php:143 ../downloads/downloads-edit.php:145
+#: ../downloads/downloads-show.php:53 ../downloads/downloads-show.php:64
+#: ../downloads/downloads-view.php:42
+msgid "Title"
+msgstr ""
+
+#: ../downloads/downloads-add.php:145 ../downloads/downloads-edit.php:147
+msgid "Please enter title for your download link."
+msgstr ""
+
+#: ../downloads/downloads-add.php:147 ../downloads/downloads-edit.php:149
+msgid "Expiration date"
+msgstr ""
+
+#: ../downloads/downloads-add.php:149 ../downloads/downloads-edit.php:151
+msgid "Please enter expiration date for this download URL. YYYY-MM-DD."
+msgstr ""
+
+#: ../downloads/downloads-add.php:151 ../downloads/downloads-edit.php:153
+msgid "URL refresh"
+msgstr ""
+
+#: ../downloads/downloads-add.php:156 ../downloads/downloads-edit.php:158
+msgid "Please select your refresh type for the download link."
+msgstr ""
+
+#: ../downloads/downloads-edit.php:58
+msgid "Please enter valid download URL."
+msgstr ""
+
+#: ../downloads/downloads-edit.php:81
+msgid "Download link was successfully updated."
+msgstr ""
+
+#: ../downloads/downloads-edit.php:138
+msgid "Edit download link"
+msgstr ""
+
+#: ../downloads/downloads-show.php:12
+#: ../subscribers/subscribers-downloads.php:20
+#: ../subscribers/subscribers-email.php:19
+#: ../subscribers/subscribers-show.php:12
+msgid "Oops, selected details doesnt exist"
+msgstr ""
+
+#: ../downloads/downloads-show.php:21
+#: ../subscribers/subscribers-downloads.php:29
+#: ../subscribers/subscribers-email.php:28
+#: ../subscribers/subscribers-show.php:22
+msgid "Selected record was successfully deleted."
+msgstr ""
+
+#: ../downloads/downloads-show.php:38
+msgid "Download links"
+msgstr ""
+
+#: ../downloads/downloads-show.php:39 ../downloads/downloads-show.php:140
+msgid "Add New"
+msgstr ""
+
+#: ../downloads/downloads-show.php:54 ../downloads/downloads-show.php:65
+msgid "Download URL"
+msgstr ""
+
+#: ../downloads/downloads-show.php:55 ../downloads/downloads-show.php:66
+#: ../downloads/downloads-view.php:79
+msgid "Short Code"
+msgstr ""
+
+#: ../downloads/downloads-show.php:57 ../downloads/downloads-show.php:68
+#: ../downloads/downloads-view.php:63
+msgid "Expiration Type"
+msgstr ""
+
+#: ../downloads/downloads-show.php:58 ../downloads/downloads-show.php:69
+#: ../downloads/downloads-view.php:67
+msgid "Expiration Date"
+msgstr ""
+
+#: ../downloads/downloads-show.php:86
+msgid "View Details"
+msgstr ""
+
+#: ../downloads/downloads-show.php:89
+msgid "Edit"
+msgstr ""
+
+#: ../downloads/downloads-show.php:92
+msgid "Delete"
+msgstr ""
+
+#: ../downloads/downloads-show.php:115
+#: ../subscribers/subscribers-downloads.php:113
+#: ../subscribers/subscribers-email.php:112
+#: ../subscribers/subscribers-show.php:108
+msgid "No records available"
+msgstr ""
+
+#: ../downloads/downloads-show.php:126
+#: ../subscribers/subscribers-downloads.php:124
+#: ../subscribers/subscribers-email.php:123
+#: ../subscribers/subscribers-show.php:119
+msgid " &lt;&lt; "
+msgstr ""
+
+#: ../downloads/downloads-show.php:127
+#: ../subscribers/subscribers-downloads.php:125
+#: ../subscribers/subscribers-email.php:124
+#: ../subscribers/subscribers-show.php:120
+msgid " &gt;&gt; "
+msgstr ""
+
+#: ../downloads/downloads-show.php:141
+#: ../subscribers/subscribers-downloads.php:139
+#: ../subscribers/subscribers-email.php:138
+#: ../subscribers/subscribers-show.php:134
+msgid "Export Emails"
+msgstr ""
+
+#: ../downloads/downloads-view.php:39
+msgid "View download link"
+msgstr ""
+
+#: ../downloads/downloads-view.php:47
+msgid "Description"
+msgstr ""
+
+#: ../downloads/downloads-view.php:55
+msgid "Download absolute path"
+msgstr ""
+
+#: ../downloads/downloads-view.php:59
+msgid "Total Downloads"
+msgstr ""
+
+#: ../downloads/downloads-view.php:71
+msgid "Status"
+msgstr ""
+
+#: ../downloads/downloads-view.php:75
+msgid "Download Id"
+msgstr ""
+
+#: ../downloads/downloads-view.php:83
+msgid "Guid Code"
+msgstr ""
+
+#: ../downloads/downloads-view.php:89
+#: ../subscribers/subscribers-downloads.php:138
+#: ../subscribers/subscribers-email.php:137
+#: ../subscribers/subscribers-export.php:51
+#: ../subscribers/subscribers-show.php:133
+msgid "Back"
+msgstr ""
+
+#: ../job/ed-download.php:71
+msgid "Your download should automatically begin in a few seconds."
+msgstr ""
+
+#: ../job/ed-export.php:26
+msgid "Unexpected url submit has been detected"
+msgstr ""
+
+#: ../job/ed-export.php:32
+msgid "Unexpected url submit has been detected. Same URL is not detected."
+msgstr ""
+
+#: ../job/ed-export.php:37
+msgid "Unexpected url submit has been detected. Request is not posted."
+msgstr ""
+
+#: ../settings/settings-edit.php:89
+msgid "Please enter sender of notifications from name."
+msgstr ""
+
+#: ../settings/settings-edit.php:95
+msgid "Please enter sender of notifications from email."
+msgstr ""
+
+#: ../settings/settings-edit.php:154
+msgid "Sender of notifications"
+msgstr ""
+
+#: ../settings/settings-edit.php:155
+msgid ""
+"Choose a FROM name and FROM email address for all emails from this plugin."
+msgstr ""
+
+#: ../settings/settings-edit.php:164
+msgid "Mail type"
+msgstr ""
+
+#: ../settings/settings-edit.php:165
+msgid ""
+"Option 1 & 2 is to send mails with default Wordpress method wp_mail(). "
+"Option 3 & 4 is to send mails with PHP method mail()"
+msgstr ""
+
+#: ../settings/settings-edit.php:179
+msgid "Download link mail subject"
+msgstr ""
+
+#: ../settings/settings-edit.php:180
+msgid ""
+"Enter the mail subject for download link mail. This will send whenever user "
+"is requested download link."
+msgstr ""
+
+#: ../settings/settings-edit.php:186
+msgid "Download link mail content"
+msgstr ""
+
+#: ../settings/settings-edit.php:187
+msgid ""
+"Enter the mail content for download link mail. This will send whenever user "
+"is requested download link."
+msgstr ""
+
+#: ../settings/settings-edit.php:196
+msgid "Mail to admin"
+msgstr ""
+
+#: ../settings/settings-edit.php:197
+msgid ""
+"To send admin notifications for new download email, This option must be set "
+"to YES."
+msgstr ""
+
+#: ../settings/settings-edit.php:208
+msgid "Admin email addresses"
+msgstr ""
+
+#: ../settings/settings-edit.php:209
+msgid ""
+"Enter the admin email addresses that should receive notifications (separate "
+"by comma)."
+msgstr ""
+
+#: ../settings/settings-edit.php:215
+msgid "Admin mail subject"
+msgstr ""
+
+#: ../settings/settings-edit.php:216
+msgid ""
+"Enter the subject for admin mail. This will send whenever new download email "
+"sent to requester."
+msgstr ""
+
+#: ../settings/settings-edit.php:223
+msgid ""
+"Enter the mail content for admin. This will send whenever new download email "
+"sent to requester."
+msgstr ""
+
+#: ../settings/settings-edit.php:231
+msgid "Expired link content"
+msgstr ""
+
+#: ../settings/settings-edit.php:232
+msgid "Enter the content to display if download link has expired."
+msgstr ""
+
+#: ../settings/settings-edit.php:238
+msgid "Invalid link content"
+msgstr ""
+
+#: ../settings/settings-edit.php:239
+msgid "Enter the content to display if download link is invalid."
+msgstr ""
+
+#: ../settings/settings-edit.php:250
+msgid "Save Settings"
+msgstr ""
+
+#: ../subscribers/subscribers-downloads.php:46
+msgid "Download History (By Download URL)"
+msgstr ""
+
+#: ../subscribers/subscribers-downloads.php:60
+#: ../subscribers/subscribers-downloads.php:71
+#: ../subscribers/subscribers-email.php:59
+#: ../subscribers/subscribers-email.php:70
+#: ../subscribers/subscribers-show.php:53
+#: ../subscribers/subscribers-show.php:64
+msgid "Email"
+msgstr ""
+
+#: ../subscribers/subscribers-downloads.php:62
+#: ../subscribers/subscribers-downloads.php:73
+#: ../subscribers/subscribers-email.php:61
+#: ../subscribers/subscribers-email.php:72
+#: ../subscribers/subscribers-show.php:55
+#: ../subscribers/subscribers-show.php:66
+msgid "Downloaded"
+msgstr ""
+
+#: ../subscribers/subscribers-downloads.php:63
+#: ../subscribers/subscribers-downloads.php:74
+#: ../subscribers/subscribers-email.php:62
+#: ../subscribers/subscribers-email.php:73
+#: ../subscribers/subscribers-show.php:56
+#: ../subscribers/subscribers-show.php:67
+msgid "Download Title"
+msgstr ""
+
+#: ../subscribers/subscribers-downloads.php:65
+#: ../subscribers/subscribers-downloads.php:76
+#: ../subscribers/subscribers-email.php:64
+#: ../subscribers/subscribers-email.php:75
+#: ../subscribers/subscribers-export.php:21
+#: ../subscribers/subscribers-export.php:29
+#: ../subscribers/subscribers-show.php:58
+#: ../subscribers/subscribers-show.php:69
+msgid "Action"
+msgstr ""
+
+#: ../subscribers/subscribers-downloads.php:75
+msgid "Downloads "
+msgstr ""
+
+#: ../subscribers/subscribers-email.php:45
+msgid "Download History (By Email)"
+msgstr ""
+
+#: ../subscribers/subscribers-export.php:13
+msgid "Export email address in csv format"
+msgstr ""
+
+#: ../subscribers/subscribers-export.php:18
+#: ../subscribers/subscribers-export.php:26
+msgid "Sno"
+msgstr ""
+
+#: ../subscribers/subscribers-export.php:19
+#: ../subscribers/subscribers-export.php:27
+msgid "Export option"
+msgstr ""
+
+#: ../subscribers/subscribers-export.php:20
+#: ../subscribers/subscribers-export.php:28
+msgid "Total email"
+msgstr ""
+
+#: ../subscribers/subscribers-export.php:35
+msgid "Export unique email address."
+msgstr ""
+
+#: ../subscribers/subscribers-export.php:37
+#: ../subscribers/subscribers-export.php:43
+msgid "Click to export csv"
+msgstr ""
+
+#: ../subscribers/subscribers-export.php:41
+msgid "Export all email address with download details."
+msgstr ""
+
+#: ../subscribers/subscribers-show.php:39
+msgid "Download History (Full List)"
+msgstr ""
