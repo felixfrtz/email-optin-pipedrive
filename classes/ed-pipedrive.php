@@ -42,7 +42,32 @@ class ed_pipedrive
 		}
 	}
 
+	// Adds a Note to a Company
+	// $content needs to have 'content' string and 'org_id' number
+	public static function add_note_to_org($domain, $api_token, $content)
+	{
+		$url = "https://" . $domain . ".pipedrive.com/v1/notes?api_token=" . $api_token;
 
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL, $url);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+		curl_setopt($ch, CURLOPT_POST, true);
+
+		curl_setopt($ch, CURLOPT_POSTFIELDS, $content);
+		$output = curl_exec($ch);
+		$info = curl_getinfo($ch);
+		curl_close($ch);
+		// create an array from the data that is sent back from the API
+		$result = json_decode($output, 1);
+		// check if an id came back
+		if (!empty($result['data']['id'])) {
+			$note_id = $result['data']['id'];
+			return $note_id;
+		} else {
+			return false;
+		}
+
+	}
 
  
 	public static function create_organization($domain, $api_token, $organization)

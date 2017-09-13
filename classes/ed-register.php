@@ -153,9 +153,11 @@ class ed_form_submuit
 			$ed_txt_company = isset($_POST['ed_txt_company']) ? sanitize_text_field($_POST['ed_txt_company']) : '';
 			$ed_id = isset($_POST['ed_txt_id']) ? sanitize_text_field($_POST['ed_txt_id']) : '';
 			
-			if($ed_name == "YES" && $ed_name_mand == "YES" && $ed_txt_nm == "")
+			if($ed_txt_nm == "")
 			{
 				$ed_alt_nm = '<span class="ed_validation" style="color: #f00;">'.ED_MSG_01.'</span>';
+				$ed_error = true;
+			} elseif ($ed_txt_company == "") {
 				$ed_alt_company = '<span class="ed_validation" style="color: #f00;">'.ED_MSG_01.'</span>';
 				$ed_error = true;
 			}

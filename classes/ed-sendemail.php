@@ -124,16 +124,22 @@ class ed_cls_sendemail
 				'name' => $ed_email_company
 			);
 
+
 			// try adding an organization and get back the ID
 			$org_id = ed_pipedrive::create_organization($ed_c_pipedrivedomain, $ed_c_pipedrivekey, $organization);
 			// if the organization was added successfully add the person and link it to the organization
 			if ($org_id) {
-			 $person['org_id'] = $org_id;
-			 // try adding a person and get back the ID
-			 $person_id = ed_pipedrive::create_person($ed_c_pipedrivedomain, $ed_c_pipedrivekey, $person);
+				$note = array(
+					'content' => 'Whitepaper über Website angefragt.',
+					'org_id' => $org_id
+				);
+			 	$person['org_id'] = $org_id;
+			 	// try adding a person and get back the ID, also add note to organization
+			 	$person_id 	= ed_pipedrive::create_person($ed_c_pipedrivedomain, $ed_c_pipedrivekey, $person);
+			 	$note_id 	= ed_pipedrive::add_note_to_org($ed_c_pipedrivedomain, $ed_c_pipedrivekey, $note);
 
 		 	} else {
-			  echo "There was a problem with adding the organization!";
+			  	echo "There was a problem with adding the organization!";
 		 	}
 
 		}
@@ -154,9 +160,14 @@ class ed_cls_sendemail
 			$org_id = ed_pipedrive::create_organization($ed_c_pipedrivedomain, $ed_c_pipedrivekey, $organization);
 			// if the organization was added successfully add the person and link it to the organization
 			if ($org_id) {
-			 $person['org_id'] = $org_id;
-			 // try adding a person and get back the ID
-			 $person_id = ed_pipedrive::create_person($ed_c_pipedrivedomain, $ed_c_pipedrivekey, $person);
+				$note = array(
+					'content' => 'Whitepaper über Website angefragt.',
+					'org_id' => $org_id
+				);
+			 	$person['org_id'] = $org_id;
+			 	// try adding a person and get back the ID, also add note to organization
+			 	$person_id 	= ed_pipedrive::create_person($ed_c_pipedrivedomain, $ed_c_pipedrivekey, $person);
+			 	$note_id 	= ed_pipedrive::add_note_to_org($ed_c_pipedrivedomain, $ed_c_pipedrivekey, $note);
 
 		 	} else {
 			  echo "There was a problem with adding the organization!";
